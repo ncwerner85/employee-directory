@@ -1,13 +1,12 @@
 import React from 'react';
+import EmployeeTable from './components/EmployeeTable';
 import Jumbotron from './components/Jumbotron';
-import SearchBar from './components/SearchBar';
-
 
 function App() {
   return (
     <>
       <Jumbotron />
-      <SearchBar />
+      <EmployeeTable  />
     </>
   )
 }
